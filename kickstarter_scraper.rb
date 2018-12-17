@@ -15,5 +15,6 @@ end
 
 create_project_hash
 
-#the selector you type into irb inside the pry is---> projects: kickstarter.css("li.project.grid_4")
+#projects: kickstarter.css("li.project.grid_4")
 # title: project.css("h2.bbcard_name strong a").text
+# image link: project.css("div.project-thumbnail a img").attribute("src").value
